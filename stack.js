@@ -25,10 +25,10 @@ for(var i = 0; i < word.length; i++) {
 	t.push(word[word.length - 1 - i]);
 }
 
-for(var i = 0; i < word.length && isPalindrome; i++) {
+for(var i = 0; i < word.length && isPalindrome; i++) 
 	if(s.pop() != t.pop())
 		isPalindrome = false;
-}
+
 var result;
 isPalindrome ? result = "Yes, it is a " : result = "No, it is not a ";
 alert(result + "palindrome");
